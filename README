@@ -11,6 +11,11 @@ Web サイト
 http://isitkr.org/
 
 
+Demo
+----
+http://isitkr.org:8000/auto_paginate/
+
+
 これはなに？
 ----
 Javascript で半自動的にページ送りを生成するテンプレート。
