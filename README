@@ -1,0 +1,59 @@
+auto_paginate
+=========================
+
+作者
+----
+Takuro Ishii（ isitkr ）
+
+
+Web サイト
+----
+http://isitkr.org/
+
+
+これはなに？
+----
+Javascript で半自動的にページ送りを生成するテンプレート。
+普通は PHP なんかのサーバ側プログラムで制御しないといけないページ送りを、Javascript で実現するもの。
+
+
+検証した環境
+----
+Internet Explorer 8
+Firefox 3.6, 4.0.1
+Google Chrome 11
+Safari 5.0.5 (Mac)
+
+
+使い方
+----
+- Javascript
+  1. js/auto_paginate.js の一番上、index オブジェクトに、ファイル名とページの簡単なタイトルを記入します。
+     ここに書かれた順番でページ送りされます。
+     記入したタイトルは、自動的に作られる目次に使われます。
+  2. jQuery(1.6+) を読み込みます。
+  3. js/auto_paginate.js を読み込みます。
+- HTML (実際の使い方は付属する 3 つの HTML ファイルをご覧ください)
+  <... class="next"></...> がつけられたタグの中に、次のページへのリンクが生成されます。
+  <... class="previous"></...> がつけられたタグの中に、前のページへのリンクが生成されます。
+
+
+できないこと
+----
+HTML ファイルをディレクトリ分けできない。
+ディレクトリ分けすると、リンクが正常に生成できない。
+
+
+おまけ
+----
+キーボードショートカットで、ページ遷移ができます。
+ただし IE だと動きませんでした。
+ - 次へ：->（右カーソルキー）、>（ピリオドでも OK です）
+ - 前へ：<-（左カーソルキー）、<（コンマでも OK です）
+
+
+ライセンス
+----
+MIT License
+http://creativecommons.org/licenses/MIT/
+http://ja.wikipedia.org/wiki/MIT_License
